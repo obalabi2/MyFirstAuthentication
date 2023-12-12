@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>signup</title>
+<style>
+    body{
+        background-color: white;
+    }
+    h2{
+        color: black;
+    }
+    h6{
+        color: rgb(189, 188, 186);
+    }
+    input[type=text], select{
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0px;
+        display: inline-block;
+        border: 1px solid#ccc;
+        border-radius: 5px;
+        background: whitesmoke;
+    }
+    input[type=email] {
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0px;
+        display: inline-block;
+        border: 1px solid#ccc;
+        border-radius: 5px;
+        background: whitesmoke;
+    }
+    input[type=password] {
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0px;
+        display: inline-block;
+        border: 1px solid#ccc;
+        border-radius: 5px;
+        background: whitesmoke;
+    }
+    input[type=tel] {
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0px;
+        display: inline-block;
+        border: 1px solid#ccc;
+        border-radius: 5px;
+        background:  whitesmoke;
+    }
+    input[type=submit] {
+        width: 50%;
+        background-color: black;
+        color: bisque;
+        padding: 14px 20px;
+        margin: 8px 0px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+    <h2>Create Your Account</h2>
+<h6>lorem ipsum dolor sit amet consectetor elit,sed do eismuod tempor incididunt ut labore dalore magns aliqua</h6>
+<div>
+    <form action="action-page.php">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="First Name"><br><br>
+
+       <label for="lname"> Last name:</label><br>
+       <input type="text" id="lname" name="lname" placeholder="Last Name"><br><br>
+
+       <label for="eadress"> Email adress:</label><br>
+       <input type="email" id="eadress" name="eadress" placeholder="example@gmail.com"><br><br>
+
+       <label for="phone"> Phone Number:</label><br>
+       <input type="tel" id="phone" name="phone" placeholder="Phone Number"><br><br>
+       
+       <label for="pword"> Password:</label><br>
+       <input type="password" id="pword" name="pword" placeholder="Password"><br><br>
+
+       <input type="submit" value="submit">
+    </form>
+</div>
+<p>Already have an account? <a href="#">Login here</a></p>
+</body>
+</html>
